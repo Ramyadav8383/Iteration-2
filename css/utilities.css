@@ -68,12 +68,13 @@ color: #fff;
   padding: 20px;
 }
 /* flex-columns */
-.flex-columns .flex-reverse .row {
+#blog .row {
+  display: flex;
   flex-direction: row-reverse;
 }
 .flex-columns .row{
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -123,7 +124,7 @@ color: #fff;
 .section-padding {
   padding: 20px 20px 40px;
 }
-/* flex-grid */
+/* cases-- flex-grid */
 .flex-grid .row {
   display: flex;
   flex-wrap: wrap;

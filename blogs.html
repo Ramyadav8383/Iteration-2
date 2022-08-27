@@ -11,90 +11,109 @@
     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-  <title>Edge Ledger</title>
+  <title>Read Our Blog</title>
 </head>
 
 <body>
-  <header id="blog">
-    <div id="navbar">
-      <div class="logo">
-        <i class="fa-solid fa-book-open primary-text"></i>
-        <h2><span class="primary-text">Edge</span> Ledger</h2>
-      </div>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#cases">Cases</a></li>
-        <li><a href="#blogs ">Blog</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  <header class="hero blog">
+    <!-- navbar -->
+    <div id="navbar" class="navbar">
+      <h1 class="logo">
+        <span class="primary-text"><i class="fa-solid fa-book-open"></i>Edge</span>Ledger
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#cases">Cases</a></li>
+          <li><a href="index.html#blog">Blog</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-      <div class="blog-header">
-        <h1>Blog</h1>
+    <!-- hero content -->
+    <div class="content">
+      <h1>Blog</h1>
+    </div>
+  </header>
+
+  <main>
+    <article class=" flex-columns">
+      <div class="row">
+        <div class="column">
+          <div class="column-1">
+            <img src="./img/blog/blog1.jpg" alt="people">
+          </div>
+        </div>
+        <div class="column">
+          <div class="column-2 bg-light">
+            <h2>Blog Post One</h2>
+            <p class="meta"><i class="fas fa-user"></i>Posted by <strong> John Doe</strong> | April 19 2020</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil dolorum nemo facilis fugiat placeat.
+              Officia
+              autem doloremque voluptates, libero perferendis incidunt. Mollitia dolorum consectetur impedit maiores,
+              perferendis est libero dolores?</p>
+            <a href="post.html" class="btn btn-dark">Read More</a>
+          </div>
+        </div>
       </div>
+    </article>
 
-    </header>
 
-    <main>
-      
-
-      <section id="blogs">
-
-        <div class="blog-right">
-          <img src="./img/blog/blog1.jpg" alt="people">
+    <article class=" flex-columns flex-reverse">
+      <div class="row">
+        <div class="column">
+          <div class="column-1">
+            <img src="./img/blog/blog2.jpg" alt="people">
+          </div>
         </div>
-        <div class="blog-left bg-light">
-          <h3>April 19 2020</h3>
-          <h2>Blog Post One</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil dolorum nemo facilis fugiat placeat. Officia
-            autem doloremque voluptates, libero perferendis incidunt. Mollitia dolorum consectetur impedit maiores,
-            perferendis est libero dolores?</p>
-          <button class="btn-dark"> Read More</button>
+        <div class="column">
+          <div class="column-2 bg-dark">
+            <h2>Blog Post Two</h2>
+            <p class="meta"><i class="fas fa-user"></i>Posted by <strong> Jane Doe</strong> | April 20 2020</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil dolorum nemo facilis fugiat placeat.
+              Officia
+              autem doloremque voluptates, libero perferendis incidunt. Mollitia dolorum consectetur impedit maiores,
+              perferendis est libero dolores?</p>
+            <a href="post-2.html" class="btn btn-light">Read More</a>
+          </div>
         </div>
-  
-      </section>
-      <section id="blogs">
-        <div class="blog-left bg-light">
-          <h3>April 21 2020</h3>
-          <h2>Blog Post One</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil dolorum nemo facilis fugiat placeat. Officia
-            autem doloremque voluptates, libero perferendis incidunt. Mollitia dolorum consectetur impedit maiores,
-            perferendis est libero dolores?</p>
-          <button class="btn-dark"> Read More</button>
-        </div>
-        <div class="blog-right">
-          <img src="./img/blog/blog2.jpg" alt="people">
-        </div>
-  
-      </section>
-      <section id="blogs">
-
-        <div class="blog-right">
-          <img src="./img/blog/blog3.jpg" alt="people">
-        </div>
-        <div class="blog-left bg-light">
-          <h3>April 23 2020</h3>
-          <h2>Blog Post Three</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil dolorum nemo facilis fugiat placeat. Officia
-            autem doloremque voluptates, libero perferendis incidunt. Mollitia dolorum consectetur impedit maiores,
-            perferendis est libero dolores?</p>
-          <button class="btn-dark"> Read More</button>
-        </div>
-  
-      </section>
-      
-    </main>
-
-    <!-- footer -->
-    <footer id="footer" class="bg-dark">
-      <div class="icons">
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-youtube"></i>
-        <i class="fa-brands fa-linkedin"></i>
       </div>
-      <p>Copyright &copy; 2020 - EdgeLedger</p>
-    </footer>
+    </article>
+
+    <article class=" flex-columns">
+      <div class="row">
+        <div class="column">
+          <div class="column-1">
+            <img src="./img/blog/blog3.jpg" alt="people">
+          </div>
+        </div>
+        <div class="column">
+          <div class="column-2 bg-light">
+            <h2>Blog Post Three</h2>
+            <p class="meta"><i class="fas fa-user"></i>Posted by <strong> Steve Smith</strong> | April 22 2020</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil dolorum nemo facilis fugiat placeat.
+              Officia
+              autem doloremque voluptates, libero perferendis incidunt. Mollitia dolorum consectetur impedit maiores,
+              perferendis est libero dolores?</p>
+            <a href="post-3.html" class="btn btn-dark">Read More</a>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+  
+
+  <!-- footer -->
+  <footer id="footer" class=" footer bg-dark">
+    <div class="social">
+     <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube fa-2x"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+    </div>
+    <p>Copyright &copy; 2020 - EdgeLedger</p>
+  </footer>
 
 </body>
 

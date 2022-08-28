@@ -42,6 +42,10 @@ img {
   position: fixed;
   top: 0;
   padding: 0 30px;
+  transition: .5s;
+}
+.navbar.top {
+  background: transparent;
 }
 .navbar a {
   color: #fff;
